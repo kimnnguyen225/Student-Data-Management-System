@@ -688,11 +688,8 @@ private JFrame frame;
             //Class.forName("org.sqlite.JDBC");
             Class.forName("org.postgresql.Driver");
             //embedded database DriverManager.getConnection("jdbc:sqlite:StudentDataMS.db");
-            String dbUrl = "jdbc:postgresql://" + "ec2-54-235-208-103.compute-1.amazonaws.com" + "d3mk22kabev5b6?sslmode=require"; //connect to db from local machine
-            String user = "yleofehjfeypnh";
-            String pw = "925264deb4c3a72f8202e6ea6cc9e6041cd27b4bba08427377d171f7026232cf";
-            //Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/StudentDataMS", "postgres", "md5");
-            Connection connection = DriverManager.getConnection(dbUrl, user, pw);
+            Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/StudentDataMS", "postgres", "md5");
+            
             return connection;
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);
