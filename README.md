@@ -7,10 +7,11 @@ It's a simple Java Swing GUI application that allows user to enter student's dat
 This application prevents user from accidently enters any other characters other than whole integer number for score.
 
 ## Technology
-- Java JDK 1.8.0_111
+- Java JDK 1.8.0_111 & **sqlite-jdbc-3.27.2.1** driver
 - Swing GUI
 - IDE: NetBeans 8.2
-- Database: PostgreSQL (pgAdmin4)
+- Database: SQLite (DB Browser SQLite)
+- sqlScript is included
 
 ## Note:
 
