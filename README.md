@@ -12,6 +12,7 @@ This application prevents user from accidently enters any other characters other
 - IDE: NetBeans 8.2
 - Database: SQLite (DB Browser SQLite)
 - sqlScript is included
+- Image cloud: https://cloudinary.com/
 
 ## Note:
 
